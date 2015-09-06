@@ -13,4 +13,8 @@ class MainController < ApplicationController
 
   def footer
   end
+
+  def landing
+    
+  end
 end

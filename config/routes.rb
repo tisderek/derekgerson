@@ -1,15 +1,6 @@
 Rails.application.routes.draw do
-  get 'main/header'
 
-  get 'main/about'
-
-  get 'main/projects'
-
-  get 'main/pipeline'
-
-  get 'main/footer'
-
-  root 'main#header'
+  root 'main#landing'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
