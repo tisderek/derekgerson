@@ -2,49 +2,75 @@
          Site Overrides
 *******************************/
 
+.ui.container#profile h1, h2, h3 {
+  color: #FFFFFF;
+}
+
+/* Name */
+.ui.container#profile h1 {
+  font-family: 'Text Me One', sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  text-decoration: none;
+}
+
+/* Configs for title + city */
+.ui.container#profile h2, .ui.container#profile h3 {   
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0.5em;
+  text-decoration: none;
+  line-height: 1em;
+}
+
+/* Title */
+.ui.container#profile h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+/* City */
+.ui.container#profile h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  -webkit-margin-after: 2em;
+}
+
+/* Email */
+.ui.container#profile a {
+  color: #B36653;
+  font-size: 1.8em;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400; 
+  font-weight: 300; 
   }
 
-
+/* Header Section */
 .ui.grid > #header-section.row {
-  background-color: #2A4759;
+  background-color: #E8846B;
   border: none;
   padding: 8em 0;
 }
 
-
-
-#name.header {
-  font-family: 'Text Me One', sans-serif;
+/* Right hand side text */
+#tagline {
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 4em;
-  text-decoration: none;
-}
-
-.header#role-city {
-  margin-top:0;
+  line-height: 2.5em;
+  color: white;
   font-size: 2em;
 }
 
-#tagline {
-  line-height: 2.5em;
-  color: white;
-  font-size: 1.6em;
-
-}
-
-#email, .ui.button, .title{
+.ui.button,{
   background-color: none;
   background: none;
   border: none;
   box-shadow:none;
-  font-size:1wm;
-}
-
-.ui.button, #email a{
-  color: #5F7582;
+  color: #B36653;
+  font-size:1.5em;
 }
 
 .ui.button:hover {
