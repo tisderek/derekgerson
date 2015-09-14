@@ -26,7 +26,7 @@ p, span, h1, h2, h3, h4, h5 {
     font-family: 'Text Me One', sans-serif;
     font-weight: 300;
     text-decoration: none;
-    font-size: 4.5em;
+    font-size: 4rem;
   }
 
   /* Title + City shared */
@@ -42,19 +42,19 @@ p, span, h1, h2, h3, h4, h5 {
   /* Title */
   .ui.segment#profile h2 {
     font-weight: 400;
-    font-size: 2.25em;
+    font-size: 2rem;
   }
 
   /* City */
   .ui.segment#profile h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 100;
     -webkit-margin-after: 2em;
   }
 
   /* Email */
   .ui.segment#profile a {
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #B36653;
   }
 
@@ -73,8 +73,8 @@ p, span, h1, h2, h3, h4, h5 {
 
   /* Tagline */
   .ui.segment#tagline {
-    font-size: 1.65em;
-    line-height: 2.25em;
+    font-size: 1.38rem;
+    line-height: 2.5em;
     text-decoration: none;
   }
   
@@ -85,9 +85,11 @@ p, span, h1, h2, h3, h4, h5 {
   }
 
    #projects-section.row > h2 {
-        font-weight: 300;
+    font-weight: 300;
+    text-decoration: none;
   }
 
+/* About Section */  
   .ui.grid > #about-section.row {
     background-color: #A2C5BF;
   }
