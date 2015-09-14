@@ -1,8 +1,8 @@
 /*******************************
     User Variable Overrides
 *******************************/
-@width: 500px;
-@background: rgba(255,255,255, 0.2);
+@width: 290px;
+@background: @strongTransparentWhite;
 @border: none;
 @boxShadow: none;
 
@@ -14,17 +14,21 @@
 @extraBackground: transparent;
 @extraDivider: none;
 @extraBoxShadow: none;
-@extraPadding: 2em 2em;
+@extraPadding: 1em 2em;
 
 @extraLinkColor: @textColor;
 @extraLinkHoverColor: @linkHoverColor;
+@extraColor: @darkTextColor;
 
 @headerFontSize: @relativeLarge;
 @headerLinkColor: @textColor;
 @headerLinkHoverColor: @linkHoverColor;
+@headerColor: @offWhite;
 
 @imageBorderRadius: @borderRadius;
 @imageBorder: 1px solid @borderColor;
 
 @linkHoverBackground: transparent;
 @linkHoverBoxShadow: none;
+
+@descriptionColor: @offWhite;

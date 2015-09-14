@@ -20,6 +20,7 @@
 @googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
 
+@textColor           : #FFFFFF;
 
 /*-------------------
     Brand Colors
@@ -43,4 +44,5 @@
 @h3 : 1.714rem;
 @h4 : 1.28rem;
 @h5 : 1.071rem;
+
 

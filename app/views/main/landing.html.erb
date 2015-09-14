@@ -29,9 +29,9 @@
     <div class="six wide column">
       <div id="tagline-wrapper" class="center aligned container">
         <div id="tagline" class="ui justified text basic segment">
-          <h1>
+          <span>
             Hi! I'm Derek, a software engineer from California. I am looking to join a team that works outside its comfort zone to build products that are simple, yet powerful. You can view my resume here. In my spare time I build SaaS products to continue learning and cement critical skills. 
-          </h1>
+          </span>
         </div>
       </div>
     </div>
@@ -41,14 +41,15 @@
   <div id="projects-section" class="two column centered row">
     <div class="four wide left float very relaxed column">
       <div class="ui center aligned container">
-        <div class="ui vertical text segment">
+        <div class="ui vertical text padded segment">
           <h1 class="ui inverted big header">
             Projects
           </h1>
+          <div class="ui hidden divider"></div>
           <div class="ui content">
-            <h2>
+            <h3>
               I build web apps primarily with Rails, Postgres, React, and SASS
-            </h2>
+            </h3>
             <p>
               Click on a project to view its details
             </p>
@@ -57,19 +58,49 @@
       </div>
     </div>
     <div class="eight wide right float column">
-      <div class="ui cards">
+      <div class="ui two cards">
 
-        <div id="faeree-project" class="ui card" href="http://cleansweep.tisderek.com">
+        <div class="ui card" href="http://cleansweep.tisderek.com">
           <div class="ui image">
-            <img src="http://imgur.com/19s4Rf8.png">
+            <%= image_tag "faeree.png", size: "300x200" %>
           </div>
           <div class="content">
-            <a class="header">Faeree</a>
+            <div class="header">Faeree</div> <div class="right floated meta"> <span class="date">2015</span> </div>
+            <div class="description">
+              To help SF avoid street sweeping tickets, Faeree lets users know the upcoming street sweeping times given a vehicle’s location. The app sends time-sensitive notifications and personalized texts to contacts with whom users share their vehicle with.
+            </div>
+          </div>
+          <div class="extra content">
+            <span class="left floated cubes">
+              <i class="code icon"></i>
+              Ruby, Sinatra, AJAX, jQuery, PostgreSQL
+            </span>
+          </div>
+
+          <div class="extra content">
+            <span class="left floated fork">
+              <i class="fork icon"></i>
+              Source
+            </span>
+            <span class="right floated database">
+              <i class="external icon"></i>
+              faeree.co
+            </span>
+          </div>
+        </div>
+
+        <div class="ui card" href="http://cleansweep.tisderek.com">
+          <div class="ui image">
+            <%= image_tag "trails.png" %>
+          </div>
+          <div class="content">
+            <div class="header">Trails
             <div class="meta">
               <span class="date">2015</span>
             </div>
+            </div>
             <div class="description">
-              To help SF avoid street sweeping tickets, Faeree lets users know the upcoming street sweeping times given a vehicle’s location. The app sends time-sensitive notifications and personalized texts to contacts with whom users share their vehicle with.
+              Hikers can use this app as a digital journal for their outdoor adventures. Using a map interface, users can keep track of their past hikes, add notes, and share with friends.
             </div>
           </div>
           <div class="extra content">
@@ -78,11 +109,18 @@
               v0.5 Deployed
             </a>
           </div>
-
         </div>
       </div> 
     </div>
     <div class="ui hidden section divider"></div>
     <div class="ui hidden section divider"></div>
+  </div>
+  <div id="about-section" class="two column centered row">
+    <div class="four wide left float very relaxed column">
+      <div class="ui center aligned container">
+        <div class="ui vertical text padded segment">
+        </div>
+      </div>
+    </div>
   </div>
 </div>

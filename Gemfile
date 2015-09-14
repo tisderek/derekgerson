@@ -34,7 +34,6 @@ gem 'less-rails'
 # gem 'capistrano-rails', group: :development
 gem 'less-rails-semantic_ui'
 gem 'autoprefixer-rails'
-gem 'better-errors'
 
 group :production do
   gem 'rails_12factor'
@@ -44,6 +43,9 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'better_errors'
+  gem 'pry'
+  gem 'pry-nav'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'

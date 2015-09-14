@@ -5,13 +5,14 @@
 
 p, span, h1, h2, h3, h4, h5 {
   font-weight: 300;
-  color: #FFFFFF;
+  text-decoration: none;
 }
+
 
 #header-section,
 #projects-section {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 /* Header Section */
@@ -72,8 +73,8 @@ p, span, h1, h2, h3, h4, h5 {
 
   /* Tagline */
   .ui.segment#tagline {
-    font-size: 1.9em;
-    line-height: 2.5em;
+    font-size: 1.65em;
+    line-height: 2.25em;
     text-decoration: none;
   }
   
@@ -81,9 +82,12 @@ p, span, h1, h2, h3, h4, h5 {
 /* Projects Section */
   .ui.grid > #projects-section.row {
     background-color: #16528E;
-    color: #FFFFFF;
   }
 
-  .ui.cards > .card {
+   #projects-section.row > h2 {
+        font-weight: 300;
+  }
 
+  .ui.grid > #about-section.row {
+    background-color: #A2C5BF;
   }
