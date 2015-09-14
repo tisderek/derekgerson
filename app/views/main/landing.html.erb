@@ -1,47 +1,88 @@
-<div class="ui vertically divided stackable grid">
+<div id="main-wrapper" class="ui vertically divided stackable grid">
+
   <div id="header-section" class="two column centered row">
-    <div class="six wide center aligned column">
-      <div class="basic vertical container segment">
-      <div id="profile" class="ui text container">
+    <div class="six wide column">
+      <div class="basic vertical padded inverted center aligned container">
+        <div id="profile" class="ui vertical center aligned basic segment">
           <h1>Derek Gerson</h1>
           <h2>Software Engineer</h2>
           <h3> SAN FRANCISCO, CA </h3>
           <a href="mailto:hi@derekgerson.com?Subject=I%20was%20in%%2020your%20site%20and%20"> hi@derekgerson.com </a>
         </div>
-      </div>
-      <div class="ui hidden divider"></div>
-      <div class="ui top attached middle aligned evenly divided centered grid">
-        <button class="ui icon big button">
-          <i class="mail outline big icon"></i>
-        </button>
-        <button class="ui icon big button">
-          <i class="twitter big icon"></i>
-        </button>
-        <button class="ui icon big button">
-          <i class="github big icon"></i>
-        </button>
-        <button class="ui icon big button">
-          <i class="linkedin big icon"></i>
-        </button>
-      </div>
-    </div>
-  <div class="six wide column">
-    <div class="basic vertical container padded inverted segment">
-      <div id="tagline" class="ui middle aligned justified inverted text container">
-        Hi! I'm Derek, a software engineer from California. I am looking to join a team that works outside its comfort zone to build products that are simple, yet powerful. You can view my resume here. In my spare time I build SaaS products to continue learning and cement critical skills. 
+        <div class="ui hidden divider"></div>
+        <div class="ui top attached middle aligned ev enly divided centered grid">
+          <button class="ui icon big button">
+            <i class="mail outline big icon"></i>
+          </button>
+          <button class="ui icon big button">
+            <i class="twitter big icon"></i>
+          </button>
+          <button class="ui icon big button">
+            <i class="github big icon"></i>
+          </button>
+          <button class="ui icon big button">
+            <i class="linkedin big icon"></i>
+          </button>
+        </div>
       </div>
     </div>
+    <div class="six wide column">
+      <div id="tagline-wrapper" class="center aligned container">
+        <div id="tagline" class="ui justified text basic segment">
+          <h1>
+            Hi! I'm Derek, a software engineer from California. I am looking to join a team that works outside its comfort zone to build products that are simple, yet powerful. You can view my resume here. In my spare time I build SaaS products to continue learning and cement critical skills. 
+          </h1>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="three column row">
-  <div class="column">
-    <p></p>
+
+  <!-- PROJECTS  -->
+  <div id="projects-section" class="two column centered row">
+    <div class="four wide left float very relaxed column">
+      <div class="ui center aligned container">
+        <div class="ui vertical text segment">
+          <h1 class="ui inverted big header">
+            Projects
+          </h1>
+          <div class="ui content">
+            <h2>
+              I build web apps primarily with Rails, Postgres, React, and SASS
+            </h2>
+            <p>
+              Click on a project to view its details
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="eight wide right float column">
+      <div class="ui cards">
+
+        <div id="faeree-project" class="ui card" href="http://cleansweep.tisderek.com">
+          <div class="ui image">
+            <img src="http://imgur.com/19s4Rf8.png">
+          </div>
+          <div class="content">
+            <a class="header">Faeree</a>
+            <div class="meta">
+              <span class="date">2015</span>
+            </div>
+            <div class="description">
+              To help SF avoid street sweeping tickets, Faeree lets users know the upcoming street sweeping times given a vehicle’s location. The app sends time-sensitive notifications and personalized texts to contacts with whom users share their vehicle with.
+            </div>
+          </div>
+          <div class="extra content">
+            <a>
+              <i class="checkered flag icon"></i>
+              v0.5 Deployed
+            </a>
+          </div>
+
+        </div>
+      </div> 
+    </div>
+    <div class="ui hidden section divider"></div>
+    <div class="ui hidden section divider"></div>
   </div>
-  <div class="column">
-    <p></p>
-  </div>
-  <div class="column">
-    <p></p>
-  </div>
-</div>
 </div>

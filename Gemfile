@@ -34,11 +34,11 @@ gem 'less-rails'
 # gem 'capistrano-rails', group: :development
 gem 'less-rails-semantic_ui'
 gem 'autoprefixer-rails'
+gem 'better-errors'
 
 group :production do
   gem 'rails_12factor'
 end
-
 
 
 group :development, :test do

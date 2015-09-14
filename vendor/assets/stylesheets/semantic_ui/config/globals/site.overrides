@@ -1,3 +1,89 @@
 /*******************************
          Site Overrides
 *******************************/
+
+
+p, span, h1, h2, h3, h4, h5 {
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#header-section,
+#projects-section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/* Header Section */
+  /* Background color */
+  .ui.grid > #header-section.row {
+    background-color: #E8846B;
+  }
+
+  /* Name */
+  .ui.segment#profile h1 {
+    font-family: 'Text Me One', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 4.5em;
+  }
+
+  /* Title + City shared */
+  .ui.segment#profile h2,
+   .ui.segment#profile h3 {   
+    margin:0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+    text-decoration: none;
+    line-height: 1em;
+  }
+
+  /* Title */
+  .ui.segment#profile h2 {
+    font-weight: 400;
+    font-size: 2.25em;
+  }
+
+  /* City */
+  .ui.segment#profile h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    -webkit-margin-after: 2em;
+  }
+
+  /* Email */
+  .ui.segment#profile a {
+    font-size: 2em;
+    color: #B36653;
+  }
+
+  /* Contact Buttons */
+  .ui.button {
+    background-color: none;
+    background: none;
+    border: none;
+    box-shadow:none;
+    color: #B36653;
+  }
+
+  .ui.button:hover {
+    background-color: rgba(255,255,255, 0.2);
+  }
+
+  /* Tagline */
+  .ui.segment#tagline {
+    font-size: 1.9em;
+    line-height: 2.5em;
+    text-decoration: none;
+  }
+  
+
+/* Projects Section */
+  .ui.grid > #projects-section.row {
+    background-color: #16528E;
+    color: #FFFFFF;
+  }
+
+  .ui.cards > .card {
+
+  }

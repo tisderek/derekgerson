@@ -1,3 +1,30 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@width: 500px;
+@background: rgba(255,255,255, 0.2);
+@border: none;
+@boxShadow: none;
+
+@contentPadding: 2em 2em;
+
+@rowSpacing: 1.5em;
+@groupCardMargin: 0em @horizontalSpacing @rowSpacing;
+
+@extraBackground: transparent;
+@extraDivider: none;
+@extraBoxShadow: none;
+@extraPadding: 2em 2em;
+
+@extraLinkColor: @textColor;
+@extraLinkHoverColor: @linkHoverColor;
+
+@headerFontSize: @relativeLarge;
+@headerLinkColor: @textColor;
+@headerLinkHoverColor: @linkHoverColor;
+
+@imageBorderRadius: @borderRadius;
+@imageBorder: 1px solid @borderColor;
+
+@linkHoverBackground: transparent;
+@linkHoverBoxShadow: none;
