@@ -12,7 +12,7 @@
   padding-bottom: 8rem;
 }
 
-/* Header Section */
+/* HEADER */
   /* Background color */
   .ui.grid > #header-section.row {
     background-color: #E8846B;
@@ -76,7 +76,7 @@
     font-weight: 300;
   }
   
-/* Projects Section */
+/* PROJECTS */
   .ui.grid > #projects-section.row {
     background-color: #16528E;
   }
@@ -91,7 +91,7 @@
     margin-bottom: 1em;
   }
 
-/* About Section */  
+/* ABOUT */  
   .ui.grid > #about-section.row {
     background-color: #A2C5BF;
   }
@@ -102,13 +102,16 @@
     line-height: 2em;
   }
 
-  img#avatar {
-    padding: 1em;
-    margin-right :5rem;
-  }
-
-  span#intro {
+  div#intro {
     margin: auto;
     font-size: 1.38rem;
     line-height: 2.5em;
   }
+  
+/* PIPELINE */  
+  #pipeline-header{
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: #16528E;
+    opacity: 0.3;
+
+}

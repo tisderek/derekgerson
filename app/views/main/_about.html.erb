@@ -1,19 +1,30 @@
-<div class="fourteen wide centered very relaxed column">
+<div class="fourteen wide centered very relaxed stackable column">
 
   <div class="ui basic center aligned vertical segment container">
     <h1 class="ui big header">
       About Me
     </h1>
   </div>
+
   <div class="ui hidden section divider"></div>
-  <div class="ui basic vertical segment container">
-    <%= image_tag 'avatar.jpg', class: "ui medium left floated middle aligned circular image", id: "avatar" %>
-    <span id="intro">
-    I am seeking employment in software engineering where I can learn new technologies, strengthen my skills, and operate outside my comfort zone. If you’re seeking a highly passionate and autonomous software engineer please feel free to contact me. You can view my resume here. 
-    </span>
+
+  <div class="ui stackable grid">
+  <div class="ui two column centered left aligned row">
+  <div class="four wide column">
+      <div class="ui container">
+        <%= image_tag 'avatar.jpg', class: "ui medium left floated middle aligned circular image", id: "avatar" %>
+      </div>
   </div>
+  <div class="ten wide column ">
+      <div class="ui basic text segment" id="intro">
+        I am seeking employment in software engineering where I can learn new technologies, strengthen my skills, and operate outside my comfort zone. If you’re seeking a highly passionate and autonomous software engineer please feel free to contact me. You can view my resume here. 
+      </div>
+
+  </div>
+    </div>
+  </div>
+</div>
   <div class="ui hidden section divider"></div>
-  
 </div>
 
 
