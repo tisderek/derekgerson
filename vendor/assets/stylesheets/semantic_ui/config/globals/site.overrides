@@ -117,5 +117,4 @@
     text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
     color: #16528E;
     opacity: 0.3;
-
-}
+  }
