@@ -1,55 +1,91 @@
-<div class="ui vertical bottom attached basic segment">
-
-  <div class="ui centered page grid">
-      <div class="ui two column stackable grid">
-
-        <div class="four wide top aliged column">
-
-          <div class="basic vertical text container segment">
-            <h2> Projects </h2>
-            <p>
-            I build web apps primarily with Rails, Sinatra, Postgres, and SCSS
-            <br>
-            Click on a project to view its details
-            </p>
-          </div>
-          
-
-        </div>
-
-        <div class="ten wide column">
-          <div class="basic vertical inverted container segment">
-          <div class="ui cards">
-
-            <div id="faeree-project" class="ui card" href="http://cleansweep.tisderek.com">
-              <div class="ui medium image">
-                <img src="http://imgur.com/19s4Rf8.png">
-              </div>
-              <div class="content">
-                <a class="header">CleanSweep</a>
-                <div class="meta">
-                  <span class="date">2015</span>
-                </div>
-                <div class="description">
-                  In SF and tired of street sweeping tickets? This is for you.
-                </div>
-              </div>
-              <div class="extra content">
-                <a>
-                  <i class="checkered flag icon"></i>
-                  v0.5 Deployed
-                </a>
-              </div>
-
-            </div>
-          </div>
-
-          
-          </div>
-          
-        </div>
-        </div>
-
+<div class="four wide left float very relaxed column">
+  <div class="ui center aligned container">
+    <div class="ui vertical text padded segment">
+      <h1 class="ui big header">
+        Projects
+      </h1>
+      <div class="ui hidden divider"></div>
+      <div class="ui content">
+        <h3>
+          I build web apps primarily with Rails, Postgres, React, and SASS
+        </h3>
+        <div class="ui hidden divider"></div>
+        <p>
+          Click on a project to view its details
+        </p>
       </div>
     </div>
+  </div>
+</div>
+<div class="ten wide right float column">
+  <div class="ui two cards">
+
+    <div class="ui card" href="http://cleansweep.tisderek.com">
+      <div class="ui image">
+        <%= image_tag "faeree.png" %>
+      </div>
+      <div class="content">
+        <div class="header">Faeree</div>
+        <div class="meta">
+          <span class="date">2015</span> 
+        </div>
+        <div class="description">
+          To help SF drivers avoid street sweeping tickets, Faeree lets users know the upcoming street sweeping times given a vehicle’s location. The app sends time-sensitive notifications and personalized texts to contacts with whom users share their vehicle.
+        </div>
+      </div>
+      <div class="extra content">
+        <span class="left floated cubes">
+          <i class="code icon"></i>
+          Ruby, Sinatra, AJAX, jQuery, PostgreSQL
+        </span>
+      </div>
+      <div class="extra content">
+        <span class="left floated database">
+          <i class="external icon"></i>
+          faeree.co
+        </span>
+      </div>
+      <div class="extra content">
+        <span class="left floated fork">
+          <i class="fork icon"></i>
+          Source
+        </span>
+      </div>
+    </div>
+
+    <div class="ui card" href="http://cleansweep.tisderek.com">
+      <div class="ui image">
+        <%= image_tag "trails.png" %>
+      </div>
+      <div class="content">
+        <div class="header">
+          Trails
+        </div>
+        <div class="meta">
+          <span class="date">2015</span>
+        </div>
+        <div class="description">
+          Hikers can use this app as a digital journal for their outdoor adventures. Using a map interface, users can keep track of their past hikes, add notes, and share with friends.
+        </div>
+      </div>
+      <div class="extra content">
+        <span class="left floated cubes">
+          <i class="code icon"></i>
+          Ruby, Mapbox.JS, PostgreSQL
+        </span>
+      </div>
+      <div class="extra content">
+        <span class="left floated database">
+          <i class="eye icon"></i>
+          Demo
+        </span>
+      </div>
+      <div class="extra content">
+        <span class="left floated fork">
+          <i class="fork icon"></i>
+          Source
+        </span>
+      </div>
+    </div>
+  </div> 
 </div>

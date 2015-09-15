@@ -39,10 +39,9 @@
 @headerFontWeight : normal;
 @headerLineHeight : 1.2857em;
 
-@h1 : 3rem;
-@h2 : 2rem;
-@h3 : 1.714rem;
-@h4 : 1.28rem;
-@h5 : 1.071rem;
-
+@h1 : 2rem;
+@h2 : 1.714rem;
+@h3 : 1.28rem;
+@h4 : 1.071rem;
+@h5 : 1rem;
 

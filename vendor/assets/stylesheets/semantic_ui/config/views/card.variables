@@ -14,7 +14,7 @@
 @extraBackground: transparent;
 @extraDivider: none;
 @extraBoxShadow: none;
-@extraPadding: 1em 2em;
+@extraPadding: .5em 2em;
 
 @extraLinkColor: @textColor;
 @extraLinkHoverColor: @linkHoverColor;

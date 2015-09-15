@@ -3,14 +3,11 @@
 *******************************/
 
 
-p, span, h1, h2, h3, h4, h5 {
-  font-weight: 300;
-  text-decoration: none;
-}
 
 
 #header-section,
-#projects-section {
+#projects-section,
+#about-section {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -76,20 +73,42 @@ p, span, h1, h2, h3, h4, h5 {
     font-size: 1.38rem;
     line-height: 2.5em;
     text-decoration: none;
+    font-weight: 300;
   }
   
-
 /* Projects Section */
   .ui.grid > #projects-section.row {
     background-color: #16528E;
   }
 
-   #projects-section.row > h2 {
-    font-weight: 300;
-    text-decoration: none;
+  /* Color of explanation */
+   #projects-section.row  p {
+    color: rgba(255,255,255, 0.5);
+  }
+  
+  /* Last extra info has extra btm margin*/
+  .ui.card > .extra:last-child {
+    margin-bottom: 1em;
   }
 
 /* About Section */  
   .ui.grid > #about-section.row {
     background-color: #A2C5BF;
+  }
+  
+  #intro.container {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2em;
+  }
+
+  img#avatar {
+    padding: 1em;
+    margin-right :5rem;
+  }
+
+  span#intro {
+    margin: auto;
+    font-size: 1.38rem;
+    line-height: 2.5em;
   }
