@@ -16,8 +16,8 @@
 @extraBoxShadow: none;
 @extraPadding: .5em 2em;
 
-@extraLinkColor: @textColor;
-@extraLinkHoverColor: @linkHoverColor;
+@extraLinkColor: @darkTextColor;
+@extraLinkHoverColor: @textColor;
 @extraColor: @darkTextColor;
 
 @headerFontSize: @relativeLarge;
