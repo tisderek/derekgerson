@@ -9,7 +9,7 @@
 @contentPadding: 2em 2em;
 
 @rowSpacing: 3em;
-@groupCardMargin: 0em @horizontalSpacing @rowSpacing;
+@groupCardMargin: 3em @rowSpacing;
 
 @extraBackground: transparent;
 @extraDivider: none;
