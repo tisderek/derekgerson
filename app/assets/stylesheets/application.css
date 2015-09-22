@@ -14,3 +14,10 @@
  *= require_self
  *= require semantic_ui/semantic_ui
  */
+
+
+.linked-in-image {
+  z-index: -2;
+  display: none;
+
+}
