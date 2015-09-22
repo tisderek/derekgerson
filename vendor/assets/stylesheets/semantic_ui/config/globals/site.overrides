@@ -58,10 +58,10 @@ body a {
     font-size: 1.5rem;
     color: #B36653;
   }
-/*
+
 .ui.segment#profile a:hover {
-  color: rgba(0,0,0, 0.5);
-}*/
+  color: #923E2A;
+}
 
   /* Contact Buttons */
   .ui.button {
