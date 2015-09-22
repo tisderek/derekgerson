@@ -9,6 +9,13 @@
   padding-bottom: 8rem;
 }
 
+body a {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.25s;
+  }
 /* HEADER */
   /* Background color */
   .ui.grid > #header-section.row {
@@ -51,6 +58,10 @@
     font-size: 1.5rem;
     color: #B36653;
   }
+/*
+.ui.segment#profile a:hover {
+  color: rgba(0,0,0, 0.5);
+}*/
 
   /* Contact Buttons */
   .ui.button {
@@ -61,8 +72,13 @@
     color: #B36653;
   }
 
+  .ui.button a {
+    color: #B36653;
+  }
+
   .ui.button:hover {
     background-color: rgba(255,255,255, 0.2);
+    color: rgba(0,0,0, 0.5);
   }
 
   /* Tagline */
@@ -103,10 +119,6 @@
     margin: auto;
     font-size: 1.38rem;
     line-height: 2.5em;
-  }
-
-  div#intro a {
-    color: #FFFFFF;
   }
 
 /* PIPELINE */  

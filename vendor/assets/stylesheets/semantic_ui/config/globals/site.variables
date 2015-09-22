@@ -22,6 +22,7 @@
 
 @textColor           : #FFFFFF;
 
+
 /*-------------------
     Brand Colors
 --------------------*/
@@ -45,3 +46,13 @@
 @h4 : 1.071rem;
 @h5 : 1rem;
 
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : #FFFFFF;
+@linkUnderline       : none;
+@linkHoverColor      : darken(saturate(@linkColor, 20), 60, relative);
+@linkHoverUnderline  : @linkUnderline;
+
+  

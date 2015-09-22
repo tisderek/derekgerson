@@ -19,23 +19,43 @@
               link += (key.charAt(ltr))
             }
           }
-        document.write("<a href='mailto:"+link+"'>hi@derekgerson.com</a>")
+        document.write("<a class='profile-link' href='mailto:"+link+"'>hi@derekgerson.com</a>")
         }
       </script>
     </div>
     <div class="ui hidden divider"></div>
-    <div class="ui top attached middle aligned ev enly divided centered grid">
+    <div class="ui top attached middle aligned evenly divided centered grid">
       <button class="ui icon large button">
-        <i class="mail outline large icon"></i>
+        <script type="text/javascript" language="javascript">
+          { coded = "nc@7EeEFLEeJCs.ZC4"
+            key = "JdTBgVwMhx8NcQ3Pe6m7yzL2bon0pXZqlkEv4RIf1UDCs5KaWASFtjHuiOY9rG"
+            shift=coded.length
+            link=""
+            for (i=0; i<coded.length; i++) {
+              if (key.indexOf(coded.charAt(i))==-1) {
+                ltr = coded.charAt(i)
+                link += (ltr)
+              }
+              else {     
+                ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                link += (key.charAt(ltr))
+              }
+            }
+          document.write("<a class='profile-link' href='mailto:"+link+"'><i class='mail outline large icon class='profile-link'></i></a>")
+          }
+        </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+
       </button>
       <button class="ui icon large button">
-        <i class="twitter large icon"></i>
-      </button>
-      <button class="ui icon large button">
+        <a class='profile-link'  href="http://github.com/tisderek" class="">
         <i class="github large icon"></i>
+        </a>
       </button>
       <button class="ui icon large button">
+        <a class='profile-link' href="https://www.linkedin.com/in/derekgerson" class="">
         <i class="linkedin large icon"></i>
+        </a>
+
       </button>
     </div>
   </div>
@@ -45,7 +65,7 @@
   <div id="tagline-wrapper" class="center aligned container">
     <div id="tagline" class="ui justified text basic segment">
       <span>
-        Hi! I'm Derek, a Brazilian software developer living in California. I am currently looking to join a team that works outside its comfort zone to build products that are simple, yet powerful. In my spare time I build SaaS products to continue learning and cement critical skills. 
+        Hi! I'm Derek, a Brazilian software developer living in California. I am currently looking to join a team that works outside its comfort zone to build products that are simple, yet powerful. In my spare time I consult and build web apps to cement critical skills and continue learning.
       </span>
     </div>
   </div>
