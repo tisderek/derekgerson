@@ -4,7 +4,8 @@
 
 #header-section,
 #projects-section,
-#about-section {
+#call-section,
+#about-section, {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
@@ -127,3 +128,14 @@ body a {
     color: #16528E;
     opacity: 0.3;
   }
+
+/* CALL */  
+  .ui.grid > #call-section.row {
+    background-color: #167C80;
+  }
+  
+  .ui.grid > #call-section.row h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+  
