@@ -17,6 +17,10 @@ body a {
     -webkit-transition:.5s;
     transition:.25s;
   }
+body {
+  background-color: #16528E;
+
+}
 /* HEADER */
   /* Background color */
   .ui.grid > #header-section.row {
@@ -138,4 +142,21 @@ body a {
     font-size: 2em;
     font-weight: 600;
   }
+/* PIECE SHOW */
+
+  .ui.grid#piece-wrapper{
+   background-color: #16528E;
+  }
   
+  .ui.grid#piece-img-grid > .column{ 
+    padding: 10px 1px;
+  }
+  
+  .ui.grid#piece-img-grid > .column{ 
+    padding: 10px 1px;
+  }
+  
+  .ui.button#back-btn {
+    font-size: 2em;
+    color: #FFFFFF;
+  }

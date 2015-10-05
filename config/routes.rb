@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'pieces/show'
+
+  get 'pieces/index'
+
   root 'main#landing'
 
   # The priority is based upon order of creation: first created -> highest priority.
