@@ -3,22 +3,25 @@
 <div class="ui middle aligned centered fluid grid" id="piece-wrapper">
   <div class="sixteen wide ui column">
 
-    <div class="bottom attached vertical segment">
+    <!--  <div class="bottom attached vertical segment">
       <div class="ui equal width grid" id="piece-img-grid">
         <div class="column">
-          <%= image_tag "faeree.png", class:"ui fluid image" %>
+          <%#= image_tag "faeree.png", class:"ui fluid image" %>
         </div>
         <div class="column">
-          <%= image_tag "faeree.png", class:"ui fluid image" %>
+          <%#= image_tag "faeree.png", class:"ui fluid image" %>
         </div>
         <div class="column">
-          <%= image_tag "faeree.png", class:"ui fluid image" %>
+          <%#= image_tag "faeree.png", class:"ui fluid image" %>
         </div>
-      </div>
-    </div>
+        <div class="column">
+          <%#= image_tag "faeree.png", class:"ui fluid image" %>
+        </div>
+      </div> 
+    </div> -->
     <div class="ui hidden section divider"></div>
     
-    <div class="attached vertical segment">
+    <div class="attached vertical segment" class="piece-about">
       <div class="ui centered text container">
         <div class="ui huge blue header">
           Project Title
@@ -34,49 +37,47 @@
     </div>
     <div class="ui hidden section divider"></div>
 
-    <div class="ui attached vertical segment">
+    <div class="attached vertical segment">
       <div class="ui centered text container">
         <div class="ui huge blue header">
           Artifacts
         </div>
+        <div class="ui hidden divider"></div>
         <div class="ui grid">
           <div class="three column row">
-            <div class="column">
-              <div class="ui fluid card">
-                <%= image_tag  "faeree.png", class:"ui image"%>
-                <div class="content">
-                  <a class="header">Useflow</a>
-                </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <%= image_tag  "faeree.png", class:"ui image"%>
+              <div class="content">
+                <a class="header">Useflow</a>
               </div>
             </div>
-            <div class="column">
-              <div class="ui fluid card">
-                <%= image_tag  "faeree.png", class:"ui image"%>
-                <div class="content">
-                  <a class="header">Schema</a>
-                </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <%= image_tag  "faeree.png", class:"ui image"%>
+              <div class="content">
+                <a class="header">Schema</a>
               </div>
             </div>
-            <div class="column">
-              <div class="ui fluid card">
-                <%= image_tag  "faeree.png", class:"ui image"%>
-                <div class="content">
-                  <a class="header">User stories</a>
-                </div>
+          </div>
+          <div class="column">
+            <div class="ui fluid card">
+              <%= image_tag  "faeree.png", class:"ui image"%>
+              <div class="content">
+                <a class="header">User stories</a>
               </div>
             </div>
           </div>
         </div>
+        </div>
+      <div class="ui hidden section divider"></div>
+      <button class="circular huge ui icon button" id="back-btn">
+        <i class="icon circle left arrow"></i>
+      </button> 
       </div>
+
     </div>
 
-    <div class="ui attached vertical segment" id="footer-segment">
-      <div class="ui container">
-        <button class="circular ui icon button">
-          <i class="icon settings"></i>
-       </button> 
-     </div>
-   </div>
-
- </div>
+  </div>
 </div>

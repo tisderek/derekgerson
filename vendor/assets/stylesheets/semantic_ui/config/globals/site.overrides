@@ -156,8 +156,7 @@ body {
     padding: 10px 1px;
   }
   
-  .ui.segment#footer-segment {
-    background-color: #FFFFFF;
+  .ui.button#back-btn {
+    font-size: 2em;
+    color: #FFFFFF;
   }
-
-
