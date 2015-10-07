@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Piece.create(
+Project.create(
   title: 'title',
   summary: 'summary summary summary summary summary summary summary summary summary summary summary summary',
   stack: 'stack',
