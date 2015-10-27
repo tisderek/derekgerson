@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'pieces/show'
+  get 'projects/show'
 
-  get 'pieces/index'
+  get 'projects/index'
 
   root 'main#landing'
 

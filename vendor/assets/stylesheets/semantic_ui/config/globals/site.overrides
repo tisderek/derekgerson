@@ -142,17 +142,18 @@ body {
     font-size: 2em;
     font-weight: 600;
   }
-/* PIECE SHOW */
+  
+/* PROJECT SHOW */
 
-  .ui.grid#piece-wrapper{
+  .ui.grid#project-wrapper{
    background-color: #16528E;
   }
   
-  .ui.grid#piece-img-grid > .column{ 
+  .ui.grid#project-img-grid > .column{ 
     padding: 10px 1px;
   }
   
-  .ui.grid#piece-img-grid > .column{ 
+  .ui.grid#project-img-grid > .column{ 
     padding: 10px 1px;
   }
   

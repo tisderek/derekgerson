@@ -1,4 +1,4 @@
-class CreatePieces < ActiveRecord::Migration
+class CreateProjects < ActiveRecord::Migration
   def change
     create_table :pieces do |t|
       t.string :title
